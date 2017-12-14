@@ -1,15 +1,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Calculator" verbose="1" parallel="methods" thread-count="2">
-    <test name="Sum test">
+    <test name="Tests">
         <groups>
             <run>
                 <exclude name="p1"></exclude>
             </run>
         </groups>
-        <classes>
-            <class name="SumTest"></class>
-            <class name="MultTest"></class>
-            <class name="SubTest"></class>
-        </classes>
+        <packages>
+            <package name="test_ng.*"></package>
+        </packages>
     </test>
 </suite>

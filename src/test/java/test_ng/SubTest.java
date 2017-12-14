@@ -1,4 +1,6 @@
-import dataprovider.TestData;
+package test_ng;
+
+import test_ng.dataprovider.TestData;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
